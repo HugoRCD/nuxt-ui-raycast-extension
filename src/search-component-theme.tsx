@@ -100,8 +100,6 @@ export default async function SearchComponentTheme(props: LaunchProps<{ argument
       componentInfo,
     };
 
-    console.log(context);
-
     const documentationUrl = buildDocumentationUrl(context, version);
 
     await showToast(Toast.Style.Animated, "Opening documentation...");
